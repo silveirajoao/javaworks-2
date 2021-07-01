@@ -1,0 +1,22 @@
+void main()
+{
+  double n1 = 10;
+  double n2 = 8;
+  double n3 = 5;
+  
+  String a = 'A';
+  String b = 'B';
+  String c = 'C';
+  
+  switch(c)
+  {
+    case 'A' : print("Média aritmética: ${((n1+n2+n3)/3)}");
+    break;
+    case 'B' : print("média ponderada: ${((n1*5+n2*3+n3*2)/10)}");
+    break;
+    case 'C' : print("média harmônica: ${(3)/((1/n1)+(1/n2)+(1/n3))}");
+    break;
+    default : print("Error");
+  }
+  
+}

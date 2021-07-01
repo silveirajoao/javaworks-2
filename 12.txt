@@ -1,0 +1,23 @@
+void main()
+{
+  double n1 = 20;
+  double n2 = 7;
+  String op = '-';
+  
+  dynamic calc()
+  {
+    switch(op)
+    {
+      case '+':print(n1 + n2);
+      break;
+      case '-':print(n1 - n2);
+      break;
+      case '*':print(n1 * n2);
+      break;
+      case '/':print(n1 / n2);
+      break;
+      default:print('ERROR');
+    }
+  }
+  calc();
+}
