@@ -1,0 +1,18 @@
+void main()
+{
+  int n1 = -1;
+  
+  
+  print("O número $n1 é positivo?");
+  
+    if(n1>=0)
+  {
+    bool a = true;
+    print(a);
+  }
+  else
+  {
+    bool b = false;
+    print(b);
+  }
+}

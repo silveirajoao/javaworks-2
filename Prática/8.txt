@@ -1,0 +1,25 @@
+void main()
+{
+  double idade = 21;
+
+  if(idade >= 5 && idade <= 7)
+  {
+    print("Categoria: Infatil A");
+  }
+  else if(idade >= 8 && idade <= 10)
+  {
+    print("Categoria: Infatil B");
+  }
+  else if(idade >= 11 && idade <= 13)
+  {
+    print("Categoria: Juvenil A");
+  }
+  else if(idade >= 14 && idade <= 17)
+  {
+    print("Categoria: Juvenil B");
+  }
+  else
+  {
+    print("Categoria: Adulto");
+  }  
+}
